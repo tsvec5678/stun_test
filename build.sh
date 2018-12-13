@@ -1,3 +1,3 @@
 #!/usr/bin/sh
 
-gcc -o simple-example simple-example2.c `pkg-config --cflags --libs nice`
+gcc -o simple-example simple-example.c `pkg-config --cflags --libs nice`
